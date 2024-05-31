@@ -48,7 +48,7 @@ sudo dpkg -i SafeSign\ IC\ Standard\ Linux\ 3.8.0.0-AET.000\ ub2204\ x86_64.deb
 sudo dpkg -i pje-office_amd64.deb
 
 sudo apt-get update
-sudo apt-get dist-upgrade -y
+sudo apt-get full-upgrade -y
 
 systemctl start pcscd.service ; systemctl enable pcscd.service
 
